@@ -53,6 +53,9 @@
   # - title: "No Header but Image"
   #   url: "/design/no-header-but-image/"
 
+- title: Projects
+  url: "/projects/"
+  side: left
 
 - title: Recruitment
   url: "/recruitment/"

@@ -47,7 +47,8 @@ permalink: "/people/"
     </div>
 
     <div class="row" style="margin-bottom:10px;">
-        {% include member.html photo="../images/people/YunzheHu.jpg" name="Yunzhe Hu" title="B.E SJTU" %}
+        <div> {% include member.html photo="../images/people/YunzheHu.jpg" name="Yunzhe Hu" title="B.E SJTU" %} </div>
+        <div> {% include member.html photo="../images/people/MaomaoLi1.png" name="Maomao Li" title="M.S. THU" %} </div>
     </div>
 
 </div>
