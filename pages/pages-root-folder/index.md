@@ -80,6 +80,14 @@ homepage: true
              alt="3D Object Detection in Point Clouds" 
              title="3D Object Detection in Point Clouds" 
              caption="We introduce a new 3D object detection method, named as Back-tracing Representative Points Network (BR-Net), which generatively back-traces representative points from the vote centers and revisits complementary seed points around these generated points, so as to better capture the fine local structural features surrounding the potential objects from the raw point clouds. " %}
+            
+          {% include carousel_item.html  
+             url=""
+             image="images/images_for_pub/3D_Det.png" 
+             alt="DVC: An End-to-end Deep Video Compression Framework" 
+             title="Accurate Monocular 3D Object Detection" 
+             caption="we propose a monocular 3D object detection framework in the domain of autonomous driving. Unlike previous image-based methods which focus on RGB feature extracted from 2D images" %}
+
         </div>
 
         <!-- Left and right controls -->
