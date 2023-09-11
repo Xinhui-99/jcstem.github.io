@@ -35,8 +35,8 @@ By fostering relationships with other cutting-edge laboratories worldwide, we've
     <div class="row">
       {% include project_intro.html 
         url="https://jcstem-ubtech.github.io/"
-        img_path="jcstem_ubetech_logo.jpg"
-        title="Human-like Visual Perception for Service Robots (Collaborated with Ubetech)"
+        img_path="jcstem_ubtech_logo.jpg"
+        title="Human-like Visual Perception for Service Robots (Collaborated with Ubtech)"
         short_description="Research on humanoid visual perception algorithms and technologies for service robots."
       %}
     </div>
