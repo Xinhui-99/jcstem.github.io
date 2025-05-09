@@ -28,11 +28,14 @@ For more publications, please refer to the supervisors' own homepage:
 
 ---
 
-{% include pub_item_noimg.html 
-    img_path="lu2020an.png" 
-    title="Progressive Cross-stream Cooperation in Spatial and Temporal Domain for Action Localization" 
-    author_list="Lichen Zhao*, Jinyang Guo*, Lu Sheng, Dong Xu" 
-    published_in="IEEE T-CSVT, 2021"
+{% include pub_item.html
+    img_path="brnet2021.png"
+    title="Unsupervised Part Discovery via Dual Representation Alignment"
+    author_list="Xia J, Huang W, Xu M, et al"
+    published_in="IEEE TPAMI, 2024"
+    url="https://ieeexplore.ieee.org/iel8/34/10746266/10638824.pdf"
+    code_url="https://github.com/jiahao-uts/unsupervisedpart"
+    blog_post=""
 %}
 
 {% include pub_item_noimg.html 

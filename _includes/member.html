@@ -1,19 +1,20 @@
-<div class="small-3 columns member">
+<div class="small-3 columns member" style="text-align: center;">
 {% if include.name %}
-		  	<div class="row">
-		  		{% if include.photo %} <img src="{{ include.photo }}" width="150" height="150"> {% endif %}
-		  	</div>
-		  	<div  {% if include.person_style %} style="{{ include.person_style }}" {% endif %} >
-				  	<div class="row" >
-						{% if include.homepage %}
-				  			<a href="{{ include.homepage }}">{{ include.name }}</a>
-						{% else %}
-							{{ include.name }}
-						{% endif %}
-				  	</div>
-				  	<div class="row">
-				  		{{ include.title }}
-				  	</div>
-			</div>
+    <div class="row">
+        {% if include.photo %} 
+            <img src="{{ include.photo }}" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%;"> 
+        {% endif %}
+    </div>
+    <div {% if include.person_style %} style="{{ include.person_style }}" {% endif %}></div>
+    <div class="row">
+        {% if include.homepage %}
+            <a href="{{ include.homepage }}">{{ include.name }}</a>
+        {% else %}
+            <span style="display: block;">{{ include.name }}</span>
+        {% endif %}
+    </div>
+    <div class="row">
+        <span style="display: block; margin-top: 5px;">{{ include.title }}</span>
+    </div>
 {% endif %}
 </div>

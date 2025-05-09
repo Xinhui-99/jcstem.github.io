@@ -28,27 +28,24 @@ permalink: "/people/"
 
 <div class="row">
     <div class="row">
-        <h3 class="medium-12">Postdoc & Research Assistants</h3>
+        <h3 class="medium-12">Lab Members</h3>
         <br/>
     </div>
-    
-    <div class="row">
-        {% include member.html photo="../images/people/YimingWu.jpg" name="Yiming Wu" title="Ph.D ZJU" %}
-    </div>
-    
-</div>
 
----
-
-<div class="row">
     <div class="row">
-        <h3 class="medium-12">Ph.D. Students</h3>
-        <br/>
+        <div> {% include member.html photo="../images/people/LeiLiu.jpeg" name="Lei Liu" title="Postdoc" homepage="https://scholar.google.cz/citations?user=3FsuonEAAAAJ&hl=zh-CN"%} </div>
+        <div> {% include member.html photo="../images/people/XinhuiLiu.png" name="Xinhui Liu" title="Postdoc" %} </div>
+        <div> {% include member.html photo="../images/people/YimingWu.jpg" name="Yiming Wu" title="Postdoc" homepage="https://www.wuyiming.site"%} </div>
+        <div> {% include member.html photo="../images/people/ZhihaoGu.jpg" name="Zhihao Gu" title="Postdoc" homepage="https://scholar.google.com/citations?user=TBlEbQIAAAAJ&hl=en"%} </div>
     </div>
+
 
     <div class="row" style="margin-bottom:10px;">
-        <div> {% include member.html photo="../images/people/YunzheHu.jpg" name="Yunzhe Hu" title="B.E SJTU" %} </div>
-        <div> {% include member.html photo="../images/people/MaomaoLi.jpg" name="Maomao Li" title="M.S. THU" %} </div>
+        <div> {% include member.html photo="../images/people/YunzheHu.jpg" name="Yunzhe Hu" title="Ph.D." homepage="https://scholar.google.com.hk/citations?user=FTw85U8AAAAJ&hl=en"%} </div>
+        <div> {% include member.html photo="../images/people/MaomaoLi.jpg" name="Maomao Li" title="Ph.D." homepage="https://scholar.google.com/citations?user=ym_t6QYAAAAJ&hl=zh-CN"%} </div>
+        <div> {% include member.html photo="../images/people/GeYuan.jpg" name="Ge Yuan" title="Ph.D." homepage="https://ygtxr1997.github.io/"%} </div>
+        <div> {% include member.html photo="../images/people/LupingLiu.jpeg" name="Luping Liu" title="Ph.D." homepage="https://luping-liu.github.io/"%} </div>
+        <div> {% include member.html photo="../images/people/QiyuanQiao.jpg" name="Qiyuan Qiao" title="Ph.D." homepage=""%} </div>
     </div>
 
 </div>

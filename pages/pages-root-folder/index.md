@@ -76,17 +76,17 @@ homepage: true
         <div class="carousel-inner">
           {% include carousel_item.html  active="true" 
              url="" 
-             image="images/images_for_pub/brnet2021.png" 
-             alt="3D Object Detection in Point Clouds" 
-             title="3D Object Detection in Point Clouds" 
-             caption="We introduce a new 3D object detection method, named as Back-tracing Representative Points Network (BR-Net), which generatively back-traces representative points from the vote centers and revisits complementary seed points around these generated points, so as to better capture the fine local structural features surrounding the potential objects from the raw point clouds. " %}
+             image="images/images_for_pub/liu2025long.png" 
+             alt="Improving Long-Text Alignment for Text-to-Image Diffusion Models" 
+             title="Improving Long-Text Alignment for Text-to-Image Diffusion Models" 
+             caption="This work investigates alignment diffusion models for long-text prompts using segment-level encoding and decomposed preference optimization." %}
             
           {% include carousel_item.html  
              url=""
-             image="images/images_for_pub/3D_Det.png" 
-             alt="DVC: An End-to-end Deep Video Compression Framework" 
-             title="Accurate Monocular 3D Object Detection" 
-             caption="we propose a monocular 3D object detection framework in the domain of autonomous driving. Unlike previous image-based methods which focus on RGB feature extracted from 2D images" %}
+             image="images/images_for_pub/li2024avideo.png" 
+             alt="A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing" 
+             title="Zero-Shot Video Editing" 
+             caption="This paper presents a video inversion approach for zero-shot video editing, which models the input video with low-rank representation during the inversion process." %}
 
         </div>
 
@@ -117,10 +117,17 @@ homepage: true
         <div class="carousel-inner">
           {% include carousel_item.html  active="true" 
              url="" 
-             image="images/images_for_pub/brnet2021.png" 
-             alt="3D Object Detection in Point Clouds" 
-             title="3D Object Detection in Point Clouds" 
-             caption="We introduce a new 3D object detection method, named as Back-tracing Representative Points Network (BR-Net), which generatively back-traces representative points from the vote centers and revisits complementary seed points around these generated points, so as to better capture the fine local structural features surrounding the potential objects from the raw point clouds. " %}
+             image="images/images_for_pub/liu2025long.png" 
+             alt="Improving Long-Text Alignment for Text-to-Image Diffusion Models" 
+             title="Improving Long-Text Alignment for Text-to-Image Diffusion Models" 
+             caption="This work investigates alignment diffusion models for long-text prompts using segment-level encoding and decomposed preference optimization." %}
+            
+          {% include carousel_item.html  
+             url=""
+             image="images/images_for_pub/li2024avideo.png" 
+             alt="A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing" 
+             title="Zero-Shot Video Editing" 
+             caption="This paper presents a video inversion approach for zero-shot video editing, which models the input video with low-rank representation during the inversion process." %}
 
         </div>
 
@@ -144,19 +151,7 @@ homepage: true
         highlight="true" date="Always"
         content="We are hiring! Several Ph.D. and master positions are now available in our group. Candidates with strong academic background and/or solid programming skills are highly preferred. Click <a href=\"recruitment\"><strong>here</strong></a> to see more details." %}
 
-    <!-- {% include news_item.html  date="23-July-2021" content="Three papers are accepted to ICCV 2021." %} -->
-
-    <!-- {% include news_item.html  date="10-July-2021" content="Two papers are accepted to ACM MM 2021 with one Oral." %} -->
-
-    <!-- {% include news_item.html  date="4-March-2021" content="Five papers are accepted to CVPR 2021 with three Oral and two Poster." %} -->
-
-    <!-- {% include news_item.html  date="4-July-2020" content="Five papers are accepted to ECCV 2020 with three Oral (2%) and two Poster." %} -->
-
-    <!-- {% include news_item.html  date="30-May-2020" content="One paper is accepted to IJCV." %} -->
-
-    <!-- {% include news_item.html  date="20-April-2020" content="One paper is accepted to TPAMI." %} -->
-
-  	<!-- {% include news_item.html  date="1-Sep-2019" content="Our lab established!" %} -->
+    {% include news_item.html  date="9-May-2025" content="One paper is accepted to ICLR 2025." %}
 
     </div>
   </div>
@@ -167,22 +162,11 @@ homepage: true
     <h3>News</h3>
     <div class="list-group" style="margin-left=0; max-height: inherit; overflow-y: auto;">
       
-    {% include news_item.html 
+    <!-- {% include news_item.html 
         highlight="true" date="Always"
-        content="We are hiring! Several Ph.D. and master positions are now available in our group. Candidates with strong academic background and/or solid programming skills are highly preferred. Click <a href=\"recruitment\"><strong>here</strong></a> to see more details." %}
+        content="We are hiring! Several Ph.D. and master positions are now available in our group. Candidates with strong academic background and/or solid programming skills are highly preferred. Click <a href=\"recruitment\"><strong>here</strong></a> to see more details." %} -->
 
-    <!-- {% include news_item.html  date="23-July-2021" content="Three papers are accepted to ICCV 2021." %} -->
-    
-    <!-- {% include news_item.html  date="10-July-2021" content="Two papers are accepted to ACM MM 2021 with one Oral." %} -->
-    
-    <!-- {% include news_item.html  date="4-March-2021" content="Five papers are accepted to CVPR 2021 with Three Oral and two Poster." %} -->
-
-    <!-- {% include news_item.html  date="4-July-2020" content="Five papers are accepted to ECCV 2020 with Three Oral (2%) and two Poster." %} -->
-
-    <!-- {% include news_item.html  date="30-May-2020" content="One paper is accepted to IJCV." %} -->
-
-    <!-- {% include news_item.html  date="20-April-2020" content="One paper is accepted to TPAMI." %} -->
-
+    {% include news_item.html  date="9-May-2025" content="One paper is accepted to ICLR 2025." %}
 
     </div>
     <h3 class="mobile"> About Us </h3>
@@ -207,5 +191,5 @@ homepage: true
       <li>learnable 3D models for extracting 3D semantics, inferring geometrical relationships, and rendering high-fidelity geometrical structures</li>
       <li>deeply learned generative models for synthesizing or translating between multi-modal data.</li>
     </ul>
- The <b>JC STEM Lab of MediaML</b> is run by Prof. Dong Xu (IEEE & IAPR Fellow, Clarivate Analytics 2018 Highly Cited Researcher in the field of Engineering, Receipt of T-MM 2014 Prize Paper Award and CVPR 2010 Best Student Paper Award [with the PhD students supervised by Prof. Xu]) at the University of Hong Kong, Hong Kong.
+ The <b>JC STEM Lab of MediaML</b> is run by Prof. Dong Xu (IEEE & IAPR Fellow, Member of the Academia Europaea, Clarivate Analytics 2018 Highly Cited Researcher in the field of Engineering, Receipt of T-MM 2014 Prize Paper Award and CVPR 2010 Best Student Paper Award [with the PhD students supervised by Prof. Xu]) at the University of Hong Kong, Hong Kong.
 </div>
