@@ -122,6 +122,8 @@ homepage: true
         highlight="true" date="Always"
         content="We are hiring! Several Ph.D. and master positions are now available in our group. Candidates with strong academic background and/or solid programming skills are highly preferred. Click <a href=\"recruitment\"><strong>here</strong></a> to see more details." %}
 
+    {% include news_item.html  date="6-July-2025" content="Two papers are accepted to ACM MM 2025." %}
+    {% include news_item.html  date="26-Jun-2025" content="One paper is accepted to ICCV 2025." %}
     {% include news_item.html  date="9-May-2025" content="One paper is accepted to ICLR 2025." %}
 
     </div>
@@ -137,6 +139,8 @@ homepage: true
         highlight="true" date="Always"
         content="We are hiring! Several Ph.D. and master positions are now available in our group. Candidates with strong academic background and/or solid programming skills are highly preferred. Click <a href=\"recruitment\"><strong>here</strong></a> to see more details." %} -->
 
+    {% include news_item.html  date="6-July-2025" content="Two papers are accepted to ACM MM 2025." %}
+    {% include news_item.html  date="26-Jun-2025" content="One paper is accepted to ICCV 2025." %}
     {% include news_item.html  date="9-May-2025" content="One paper is accepted to ICLR 2025." %}
 
     </div>
