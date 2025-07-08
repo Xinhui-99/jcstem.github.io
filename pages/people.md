@@ -35,7 +35,7 @@ permalink: "/people/"
     <div class="row">
         <div> {% include member.html photo="../images/people/CanWang.png" name="Can Wang" title="Postdoc" homepage="https://cassiepython.github.io/"%} </div>
         <div> {% include member.html photo="../images/people/LeiLiu.jpeg" name="Lei Liu" title="Postdoc" homepage="https://scholar.google.cz/citations?user=3FsuonEAAAAJ&hl=zh-CN"%} </div>
-        <div> {% include member.html photo="../images/people/XinhuiLiu.png" name="Xinhui Liu" title="Postdoc" %} </div>
+        <div> {% include member.html photo="../images/people/XinhuiLiu.png" name="Xinhui Liu" title="Postdoc" homepage="https://scholar.google.com/citations?user=9SPgDacAAAAJ&hl=zh-CN"%} </div>
         <div> {% include member.html photo="../images/people/YimingWu.jpg" name="Yiming Wu" title="Postdoc" homepage="https://www.wuyiming.site"%} </div>
         <div> {% include member.html photo="../images/people/ZhihaoGu.jpg" name="Zhihao Gu" title="Postdoc" homepage="https://scholar.google.com/citations?user=TBlEbQIAAAAJ&hl=en"%} </div>
     </div>
